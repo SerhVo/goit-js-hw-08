@@ -30,7 +30,7 @@ formElem.addEventListener('submit', onSubmit);
 
 function onSubmit(event) {
   event.preventDefault();
-  console.log(data.email, data.message);
+  console.log(data);
   localStorage.removeItem('feedback-form-state');
   formElem.reset();
 }
